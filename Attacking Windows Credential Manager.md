@@ -25,14 +25,14 @@
 	- `rundll32 keymgr.dll, KRShowKeyMgr`
 	
 		- After running the above command a pop up box will open
-		 ![[Screenshot 2025-10-07 170014.png]]
+		 ![alter_image](https://github.com/spider256-pt/Password-Attacks/blob/ac474230510bac999fad61dfe9c6f1ab57baa59e/image/Screenshot%202025-10-07%20170014.png)
 
 		### Enumerating credentials with cmdkey:
 		
 		- Use ==`cmdkey`== to enumerate the Credentials store in the currents user's profile:
 			-  Command:
 				- `cmdkey /list`
-				![[Screenshot 2025-10-07 170758.png]]
+				![alter_image](https://github.com/spider256-pt/Password-Attacks/blob/8afe1185ee413e61281c20f4fa65f51b72aba96c/image/Screenshot%202025-10-07%20170758.png)
 			- ###### Stored credentials are listed with the following format:
 				- `Target`
 				- `Type`
