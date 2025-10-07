@@ -37,12 +37,12 @@
 				
 					- `tasklist /svc`
 						- This command can be use to found `lsass.exe` and its process ID.
-							![[Pasted image 20251007102344.png]]
+							![image alt](https://github.com/spider256-pt/Password-Attacks/blob/fb28e4356ea336724c496451401f4008399ea397/image/Screenshot%202025-10-07%20102336.png)
 					
 				- ###### Finding LSASS's PID in PowerShell:
 					
 					-  Use Get-Process `lsass` and see the process ID in the Id field.
-						![[Pasted image 20251007103328.png]]
+						![image_alt](https://github.com/spider256-pt/Password-Attacks/blob/fb28e4356ea336724c496451401f4008399ea397/image/Screenshot%202025-10-07%20103317.png)
 
 				- ###### Creating a dump file using Powershell(rundll32.exe):
 					
